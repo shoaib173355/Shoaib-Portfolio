@@ -16,7 +16,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Front-End Developer</h4>
-                <h5>Data Insight pvt ltd</h5>
+                <h5>Insight view web</h5>
               </div>
               <h3>2024</h3>
             </div>
@@ -30,6 +30,28 @@ const Career = () => {
               real-time system metrics and business data. Optimized component
               rendering and Redux state management to reduce unnecessary
               re-renders and improve performance.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Front-End Developer</h4>
+                <h5>Business Analytics & Monitoring Platform</h5>
+              </div>
+              <h3>2025-2026</h3>
+            </div>
+            <p>
+              Developed a scalable analytics dashboard to monitor business KPIs,
+              user activity, and system metrics. Built reusable dashboard
+              components including metric cards, dynamic charts, and advanced
+              data tables. Implemented role-based access control for Admin,
+              Manager, and Analyst users. Integrated REST APIs to fetch
+              real-time analytics data and system monitoring metrics.
+              Implemented filtering, sorting, pagination, and CSV export for
+              large datasets. Optimized performance using lazy loading,
+              memoization, and efficient state management with Redux Toolkit.
+              Designed responsive UI layouts using Material UI to ensure
+              seamless experience across devices.
             </p>
           </div>
           <div className="career-info-box">
@@ -55,20 +77,6 @@ const Career = () => {
               configuration, and production deployment.
             </p>
           </div>
-          {/* <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
-            </p>
-          </div> */}
         </div>
       </div>
     </div>

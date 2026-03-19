@@ -6,7 +6,7 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 const projects = [
   {
     title: "Data Insight PVT Ltd.",
-    category: "Saas Project",
+    category: "Insight View Web",
     tools: "React.js, Next.js, Redux, Material UI, REST APIs",
     image: "/images/Solidx.jpg",
   },
