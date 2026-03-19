@@ -50,7 +50,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          <img src="/public/images/Sm-logo.png" alt="SM Logo" className="navbar-logo"/>
+          <img src="/images/Sm-logo.png" alt="SM Logo" className="navbar-logo"/>
         </a>
 
         <a
