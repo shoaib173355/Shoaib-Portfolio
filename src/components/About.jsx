@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Frontend Developer with 1+ year of hands-on experience in building
+          Frontend Developer with 3 year of hands-on experience in building
           scalable, responsive, and SEO-optimized web applications using
           React.js, Next.js, Redux, and Material UI. Strong experience in
           developing dashboards, integrating RESTful APIs, optimizing

@@ -11,17 +11,17 @@ const projects = [
     image: "/images/Solidx.jpg",
   },
   {
+    title: "Data Insight PVT Ltd.",
+    category: "Business Analytics & Monitoring Platform",
+    tools: " React.js, Redux, Tailwind CSS,REST APIs, Chart.js",
+    image: "/images/bond.png",
+  },
+  {
     title: "Alif School Website",
     category: "Educational Website",
     tools: "React.js, Next.js, Redux, Tailwind CSS, REST APIs",
     image: "/images/radix.png",
   },
-  // {
-  //   title: "Bond Cancellation",
-  //   category: "Import-Export Automation",
-  //   tools: "Angular, Next.js, NestJS, Workflows",
-  //   image: "/images/bond.png",
-  // },
 ];
 
 const Work = () => {
@@ -37,7 +37,7 @@ const Work = () => {
 
       setTimeout(() => setIsAnimating(false), 500);
     },
-    [isAnimating]
+    [isAnimating],
   );
 
   const goToPrev = useCallback(() => {
@@ -62,7 +62,6 @@ const Work = () => {
         </h2>
 
         <div className="carousel-wrapper">
-
           <button
             className="carousel-arrow carousel-arrow-left"
             onClick={goToPrev}
@@ -91,7 +90,6 @@ const Work = () => {
               {projects.map((project, index) => (
                 <div className="carousel-slide" key={index}>
                   <div className="carousel-content">
-
                     <div className="carousel-info">
                       <div className="carousel-number">
                         <h3>0{index + 1}</h3>
@@ -100,14 +98,10 @@ const Work = () => {
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
 
-                        <p className="carousel-category">
-                          {project.category}
-                        </p>
+                        <p className="carousel-category">{project.category}</p>
 
                         <div className="carousel-tools">
-                          <span className="tools-label">
-                            Tools & Features
-                          </span>
+                          <span className="tools-label">Tools & Features</span>
 
                           <p>{project.tools}</p>
                         </div>
@@ -115,12 +109,8 @@ const Work = () => {
                     </div>
 
                     <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.title}
-                      />
+                      <WorkImage image={project.image} alt={project.title} />
                     </div>
-
                   </div>
                 </div>
               ))}
@@ -132,9 +122,7 @@ const Work = () => {
               <button
                 key={index}
                 className={`carousel-dot ${
-                  index === currentIndex
-                    ? "carousel-dot-active"
-                    : ""
+                  index === currentIndex ? "carousel-dot-active" : ""
                 }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
@@ -142,7 +130,6 @@ const Work = () => {
               />
             ))}
           </div>
-
         </div>
       </div>
     </div>

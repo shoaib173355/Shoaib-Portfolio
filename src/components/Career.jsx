@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Front-End Developer</h4>
                 <h5>Insight view web</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2023</h3>
             </div>
             <p>
               Designed and developed responsive user interfaces using React.js,
